@@ -1,5 +1,5 @@
 <template>
-    <h1>Home Component</h1>
+    <h1>Sign up  page</h1>
     </template>
     
     <script>
