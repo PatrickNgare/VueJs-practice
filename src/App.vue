@@ -1,17 +1,22 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  
-  <home/>
+
+
+  <RouterLink to="/Home">Home</RouterLink>
+  <RouterLink to="/login">Login</RouterLink>
+  <RouterLink to="/signup">Sign Up</RouterLink>
+  <RouterView>  </RouterView>
+
 </template>
 
 <script>
-import home from './components/Home.vue'
+
 
 export default {
   name: 'App',
   components: {
 
-    home,
+  
   
   }
 }
