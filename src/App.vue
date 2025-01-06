@@ -25,7 +25,7 @@
       <td>{{ item.first_name }}</td>
       <td>{{ item.last_name }}</td>
       <td>{{ item.email }}</td>
-      <td><img :src="item.avatar" alt="avatar" width="50" height="50"></td>
+      <td><img :src="item.avatar" alt="avatar" width="10" height="50"></td>
     </tr>
   </table>
 </template>
@@ -63,35 +63,4 @@ export default {
 }
 
 
-.styled-table {
-  width: 80%;
-  margin: 20px auto;
-  border-collapse: collapse;
-  font-family: Arial, sans-serif;
-  font-size: 14px;
-}
-
-.styled-table th,
-.styled-table td {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
-}
-
-.styled-table th {
-  background-color: #4caf50;
-  color: white;
-}
-
-.styled-table tr:nth-child(even) {
-  background-color: #f2f2f2;
-}
-
-.styled-table tr:hover {
-  background-color: #ddd;
-}
-
-.styled-table img {
-  border-radius: 50%;
-}
 </style>
