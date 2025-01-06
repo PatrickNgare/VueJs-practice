@@ -2,9 +2,9 @@
   <img alt="Vue logo" src="./assets/logo.png">
 
 
-  <RouterLink to="/Home">Home</RouterLink>
-  <RouterLink to="/login">Login</RouterLink>
-  <RouterLink to="/signup">Sign Up</RouterLink>
+  <RouterLink to="/Home">Home</RouterLink>&nbsp;&nbsp;
+  <RouterLink to="/login/stark">Login</RouterLink>&nbsp;&nbsp;
+  <RouterLink to="/signup/newuser">Sign Up</RouterLink>&nbsp;&nbsp;
   <RouterView>  </RouterView>
 
 </template>
