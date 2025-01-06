@@ -3,6 +3,7 @@ import { createWebHistory,createRouter } from "vue-router";
 import Home from "./components/Home.vue";
 import login from "./components/login.vue";
 import signup from "./components/signup.vue";
+import pagenotfound from "./components/pagenotfound.vue";
 
 const routes = [
     {
@@ -11,7 +12,7 @@ const routes = [
         component: Home
     },
     {
-        path: "/login/:stark",
+        path: "/:pathMatch(.*)*",
         name: "login/",
         component: login
     },
@@ -19,6 +20,12 @@ const routes = [
         path: "/signup/:name",
         name: "signup",
         component: signup
+    },
+
+    {
+        path: "/pagenotfound/",
+        name: "pagenotfound",
+        component: pagenotfound
     },
 ];
 

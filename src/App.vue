@@ -5,6 +5,8 @@
   <RouterLink to="/Home">Home</RouterLink>&nbsp;&nbsp;
   <RouterLink to="/login/stark">Login</RouterLink>&nbsp;&nbsp;
   <RouterLink to="/signup/newuser">Sign Up</RouterLink>&nbsp;&nbsp;
+  
+
   <RouterView>  </RouterView>
 
 </template>
